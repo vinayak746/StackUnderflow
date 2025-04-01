@@ -28,7 +28,7 @@ const QuestionList = () => {
   return (
     <div className="space-y-4">
       {questions.map((q) => (
-        <Link key={q.id} to={`/question/${q.id}`}>
+        <Link key={q.id} to={`/questions/${q.id}`}>
           <div className="border-b p-3 flex items-center space-x-4 hover:bg-gray-100 cursor-pointer">
             <div className="text-center">
               <p className="font-bold">{q.votes}</p>
